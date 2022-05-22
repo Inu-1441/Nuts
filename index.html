@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <style>
@@ -17,10 +20,6 @@
         font-family: 'Nunito', sans-serif;
         color: #fff;
         transition: all .4s ease;
-    }
-    
-    html {
-        font-size: 62.5%;
     }
     
     section {
@@ -49,27 +48,27 @@
     }
     
     .list-link {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     
     a {
         text-decoration: none;
     }
     
-    .btn a {
+    .list-link a {
         color: #000;
     }
     
-    .btn a:visited {
+    .list-link a:visited {
         color: #808080;
     }
     
-    .btn a:hover,
-    .btn a:active {
+    .list-link a:hover,
+    .list-link a:active {
         color: #DEBCBC;
     }
     
-    .btn--bubble {
+    .list-link--bubble {
         background-color: rgb(128, 128, 128, 0.9);
         padding: 1rem 2.4rem;
         border-radius: 100px;
@@ -94,7 +93,7 @@
         margin-bottom: 6.2rem;
     }
     
-    .cta {
+    .btn {
         padding: 1.6rem 5rem;
         background-color: rgb(222, 188, 188, 0.9);
         border-radius: 100px;
@@ -102,7 +101,7 @@
         margin-right: 3rem;
     }
     
-    .cta--ghost {
+    .btn--ghost {
         background-color: rgb(0, 0, 0, 0);
         border: #000 1px solid;
     }
@@ -115,18 +114,18 @@
                 <img src="./Images/logo.png" alt="" class="logo">
             </div>
             <ul class="nav-list">
-                <li class="list-link"><a href="#" class="btn">Products</a> </li>
-                <li class="list-link"><a href="#" class="btn">Features</a> </li>
-                <li class="list-link"><a href="#" class="btn">Pricing</a> </li>
-                <li class="list-link"><a href="#" class="btn">Blog</a> </li>
-                <li class="list-link"><a href="#" class="btn btn--bubble">Sign Up</a> </li>
+                <li class=""><a href="#" class="list-link">Products</a> </li>
+                <li class=""><a href="#" class="list-link">Features</a> </li>
+                <li class=""><a href="#" class="list-link">Pricing</a> </li>
+                <li class=""><a href="#" class="list-link">Blog</a> </li>
+                <li class=""><a href="#" class="list-link list-link--bubble">Sign Up</a> </li>
             </ul>
         </nav>
         <div class="text-box">
             <h1 class="heading-prim">Mindful breathing & meditation</h1>
             <p class="body-text">A refreshing, delightful, and distraction-free mindful breathing companion to get you through the day. And more.</p>
-            <a href="" class="cta">Try Now</a>
-            <a href="" class="cta cta--ghost">Sign Up</a>
+            <a href="" class="btn">Try Now</a>
+            <a href="" class="btn btn--ghost">Sign Up</a>
         </div>
     </section>
 </body>
