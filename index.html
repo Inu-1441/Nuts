@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+        color: #fff;
+        transition: all .4s ease;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    section {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.590), rgba(255, 255, 255, 0.100)), url(./Images/hero.jpg) center center no-repeat;
+        background-attachment: fixed;
+        background-size: 100% auto;
+    }
+    
+    .logo {
+        height: 1.4rem;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3.2rem 14rem;
+    }
+    
+    .nav-list {
+        list-style: none;
+        display: flex;
+        gap: 3rem;
+    }
+    
+    .list-link {
+        font-size: 1.2rem;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .btn a {
+        color: #000;
+    }
+    
+    .btn a:visited {
+        color: #808080;
+    }
+    
+    .btn a:hover,
+    .btn a:active {
+        color: #DEBCBC;
+    }
+    
+    .btn--bubble {
+        background-color: rgb(128, 128, 128, 0.9);
+        padding: 1rem 2.4rem;
+        border-radius: 100px;
+    }
+    
+    .text-box {
+        padding: 4.8rem 14rem;
+        margin-top: 4.8rem;
+        display: inline-block;
+        color: #808080;
+    }
+    
+    .heading-prim {
+        font-size: 5rem;
+        font-weight: 90;
+        margin-bottom: 2.4rem;
+    }
+    
+    .body-text {
+        width: 60%;
+        font-size: 1.8rem;
+        margin-bottom: 6.2rem;
+    }
+    
+    .cta {
+        padding: 1.6rem 5rem;
+        background-color: rgb(222, 188, 188, 0.9);
+        border-radius: 100px;
+        color: #000;
+        margin-right: 3rem;
+    }
+    
+    .cta--ghost {
+        background-color: rgb(0, 0, 0, 0);
+        border: #000 1px solid;
+    }
+</style>
+
+<body>
+    <section class="section-hero">
+        <nav class="nav">
+            <div class="logo-box">
+                <img src="./Images/logo.png" alt="" class="logo">
+            </div>
+            <ul class="nav-list">
+                <li class="list-link"><a href="#" class="btn">Products</a> </li>
+                <li class="list-link"><a href="#" class="btn">Features</a> </li>
+                <li class="list-link"><a href="#" class="btn">Pricing</a> </li>
+                <li class="list-link"><a href="#" class="btn">Blog</a> </li>
+                <li class="list-link"><a href="#" class="btn btn--bubble">Sign Up</a> </li>
+            </ul>
+        </nav>
+        <div class="text-box">
+            <h1 class="heading-prim">Mindful breathing & meditation</h1>
+            <p class="body-text">A refreshing, delightful, and distraction-free mindful breathing companion to get you through the day. And more.</p>
+            <a href="" class="cta">Try Now</a>
+            <a href="" class="cta cta--ghost">Sign Up</a>
+        </div>
+    </section>
+</body>
+
+</html>
